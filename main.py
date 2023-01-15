@@ -56,7 +56,7 @@ if __name__ == "__main__":
     select_region()
 
     # Register the hotkey
-    keyboard.add_hotkey("ctrl+prtscn", take_screenshot)
+    keyboard.add_hotkey("ctrl+alt+e", take_screenshot)
 
     # Create a GUI window to keep the program running
     root = tk.Tk()
